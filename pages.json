@@ -1,16 +1,71 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/home/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/notepad/index",
+			"style": {
+				"navigationBarTitleText": "记事本",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/cashbook/index",
+			"style": {
+				"navigationBarTitleText": "记账本",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/anniversary/index",
+			"style": {
+				"navigationBarTitleText": "纪念日",
+				"enablePullDownRefresh": false
 			}
 		}
+		
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#BBBBBB",
+		"selectedColor": "#212121",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/imgs/tabbar/inactiveHome.png",
+				"selectedIconPath": "static/imgs/tabbar/activeHome.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/notepad/index",
+				"iconPath": "static/imgs/tabbar/activeNote.png",
+				"selectedIconPath": "static/imgs/tabbar/inactiveNote.png",
+				"text": "记事本"
+			},
+			{
+				"pagePath": "pages/cashbook/index",
+				"iconPath": "static/imgs/tabbar/inactiveKeeping.png",
+				"selectedIconPath": "static/imgs/tabbar/activeKeeping.png",
+				"text": "记账本"
+			},
+			{
+				"pagePath": "pages/anniversary/index",
+				"iconPath": "static/imgs/tabbar/inactiveHappyDay.png",
+				"selectedIconPath": "static/imgs/tabbar/activeHappyDay.png",
+				"text": "纪念日"
+			}
+		]
 	}
+
 }

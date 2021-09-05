@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/notepad/index",
+    "pages/cashbook/index",
+    "pages/anniversary/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#212121",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/imgs/tabbar/inactiveHome.png",
+        "selectedIconPath": "static/imgs/tabbar/activeHome.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/notepad/index",
+        "iconPath": "static/imgs/tabbar/activeNote.png",
+        "selectedIconPath": "static/imgs/tabbar/inactiveNote.png",
+        "text": "记事本"
+      },
+      {
+        "pagePath": "pages/cashbook/index",
+        "iconPath": "static/imgs/tabbar/inactiveKeeping.png",
+        "selectedIconPath": "static/imgs/tabbar/activeKeeping.png",
+        "text": "记账本"
+      },
+      {
+        "pagePath": "pages/anniversary/index",
+        "iconPath": "static/imgs/tabbar/inactiveHappyDay.png",
+        "selectedIconPath": "static/imgs/tabbar/activeHappyDay.png",
+        "text": "纪念日"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}
