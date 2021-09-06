@@ -3,7 +3,8 @@
     "pages/home/index",
     "pages/notepad/index",
     "pages/cashbook/index",
-    "pages/anniversary/index"
+    "pages/anniversary/index",
+    "pages/notepad/form/addForm"
   ],
   "subPackages": [],
   "window": {

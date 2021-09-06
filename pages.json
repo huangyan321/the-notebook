@@ -27,6 +27,13 @@
 				"navigationBarTitleText": "纪念日",
 				"enablePullDownRefresh": false
 			}
+		},
+		{
+			"path": "pages/notepad/form/addForm",
+			"style": {
+				"navigationBarTitleText": "开始记录",
+				"enablePullDownRefresh": false
+			}
 		}
 		
 	],
