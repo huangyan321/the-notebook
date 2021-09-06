@@ -8142,11 +8142,18 @@ module.exports = g;
 
 
 /***/ }),
+<<<<<<< HEAD:unpackage/dist/dev/mp-weixin/common/vendor.js
 
 /***/ 4:
 /*!**************************************************!*\
   !*** E:/webFront/uniapp/The Notebook/pages.json ***!
   \**************************************************/
+=======
+/* 4 */
+/*!******************************************************************!*\
+  !*** C:/webFront/myProject/vue/the-notebook/webfront/pages.json ***!
+  \******************************************************************/
+>>>>>>> 46ca2763f1069c579cc0eb7e2ebcabe8e7de876e:webfront/unpackage/dist/dev/mp-weixin/common/vendor.js
 /*! no static exports found */
 /***/ (function(module, exports) {
 
