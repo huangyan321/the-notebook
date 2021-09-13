@@ -6,16 +6,16 @@
 		<scroll-view>
 			<!-- 标题卡片模式 -->
 			<uni-card title="2021年9月5日" mode="title" :is-shadow="true" note="Tips">
-				阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴
+				content
 			</uni-card>
 			<uni-card title="2021年9月6日" mode="title" :is-shadow="true" note="Tips">
-				阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴
+				content
 			</uni-card>
 			<uni-card title="xxxx年x月x日" mode="title" :is-shadow="true" note="Tips">
-				阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴
+				content
 			</uni-card>
 			<uni-card title="xxxx年xx月x日" mode="title" :is-shadow="true" note="Tips">
-				阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴阿巴
+				content
 			</uni-card>
 		</scroll-view>
 		<view>

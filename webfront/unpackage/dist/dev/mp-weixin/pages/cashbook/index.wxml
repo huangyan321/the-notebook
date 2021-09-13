@@ -1,1 +1,36 @@
-<view class="_div"></view>
+<view style="width:100%;height:100%;" class="data-v-92ebf250"><view class="example-body data-v-92ebf250"><uni-datetime-picker bind:input="__e" vue-id="1ab7552e-1" type="daterange" rangeSeparator="至" value="{{range}}" data-event-opts="{{[['^input',[['__set_model',['','range','$event',[]]]]]]}}" class="data-v-92ebf250" bind:__l="__l"></uni-datetime-picker></view><view class="picker data-v-92ebf250"><view class="picker-item data-v-92ebf250"><view class="left-text data-v-92ebf250">选择类型</view><view class="db data-v-92ebf250"><picker value="{{index}}" range="{{array}}" data-event-opts="{{[['change',[['bindPickerChange',['$event']]]]]}}" bindchange="__e" class="data-v-92ebf250"><view class="select-input data-v-92ebf250">{{array[index]}}</view></picker></view></view></view><scroll-view class="data-v-92ebf250"><uni-card vue-id="1ab7552e-2" mode="basic" is-shadow="{{true}}" note="支出" extra="12元" class="data-v-92ebf250" bind:__l="__l" vue-slots="{{['default']}}"><view class="detail data-v-92ebf250"><view class="left-marks data-v-92ebf250">这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域</view><view class="right-pay-count data-v-92ebf250">12元</view></view></uni-card><uni-card vue-id="1ab7552e-3" mode="basic" is-shadow="{{true}}" note="支出" extra="12元" class="data-v-92ebf250" bind:__l="__l" vue-slots="{{['default']}}"><view class="detail data-v-92ebf250"><view class="left-marks data-v-92ebf250">这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域</view><view class="right-pay-count data-v-92ebf250">12元</view></view></uni-card><uni-card vue-id="1ab7552e-4" mode="basic" is-shadow="{{true}}" note="支出" extra="12元" class="data-v-92ebf250" bind:__l="__l" vue-slots="{{['default']}}"><view class="detail data-v-92ebf250"><view class="left-marks data-v-92ebf250">这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域</view><view class="right-pay-count data-v-92ebf250">12元</view></view></uni-card><uni-card vue-id="1ab7552e-5" mode="basic" is-shadow="{{true}}" note="支出" extra="12元" class="data-v-92ebf250" bind:__l="__l" vue-slots="{{['default']}}"><view class="detail data-v-92ebf250"><view class="left-marks data-v-92ebf250">这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域</view><view class="right-pay-count data-v-92ebf250">12元</view></view></uni-card><uni-card vue-id="1ab7552e-6" mode="basic" is-shadow="{{true}}" note="支出" extra="12元" class="data-v-92ebf250" bind:__l="__l" vue-slots="{{['default']}}"><view class="detail data-v-92ebf250"><view class="left-marks data-v-92ebf250">这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域
+					这里是内容区域</view><view class="right-pay-count data-v-92ebf250">12元</view></view></uni-card></scroll-view></view>
