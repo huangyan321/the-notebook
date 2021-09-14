@@ -4,7 +4,9 @@
     "pages/notepad/index",
     "pages/cashbook/index",
     "pages/anniversary/index",
-    "pages/notepad/form/addForm"
+    "pages/notepad/form/addForm",
+    "pages/cashbook/form/addForm",
+    "pages/anniversary/form/addForm"
   ],
   "subPackages": [],
   "window": {

@@ -19,7 +19,7 @@
 			</uni-card>
 		</scroll-view>
 		<view>
-			<uni-fab :pattern="pattern" :horizontal="horizontal" :vertical="vertical" :direction="direction"
+			<uni-fab :pattern="fabSetting.pattern" :horizontal="fabSetting.horizontal" :vertical="fabSetting.vertical" :direction="fabSetting.direction"
 				@fabClick="fabClick" :popMenu="false"></uni-fab>
 		</view>
 	</view>
@@ -29,13 +29,15 @@
 	export default {
 		data() {
 			return {
-				range: ['2021-03-8', '2021-4-20'],
-				pattern: {
-					buttonColor: "pink"
-				},
-				horizontal: "right",
-				vertical: "bottom",
-				direction: "vertical",
+				fabSetting: {
+					range: ['2021-03-8', '2021-4-20'],
+					pattern: {
+						buttonColor: "pink"
+					},
+					horizontal: "right",
+					vertical: "bottom",
+					direction: "vertical",
+				}
 
 			}
 		},
