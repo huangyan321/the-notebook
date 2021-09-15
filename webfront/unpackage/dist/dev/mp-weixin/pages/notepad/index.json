@@ -2,6 +2,7 @@
   "navigationBarTitleText": "记事本",
   "enablePullDownRefresh": false,
   "usingComponents": {
+    "mescroll-uni": "/uni_modules/mescroll-uni/components/mescroll-uni/mescroll-uni",
     "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker",
     "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
     "uni-fab": "/uni_modules/uni-fab/components/uni-fab/uni-fab"

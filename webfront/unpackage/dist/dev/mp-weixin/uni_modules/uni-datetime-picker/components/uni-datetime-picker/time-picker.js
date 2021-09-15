@@ -288,10 +288,10 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
-var _uniI18n = __webpack_require__(/*! @dcloudio/uni-i18n */ 80);
+var _uniI18n = __webpack_require__(/*! @dcloudio/uni-i18n */ 66);
 
 
-var _index = _interopRequireDefault(__webpack_require__(/*! ./i18n/index.js */ 81));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
+var _index = _interopRequireDefault(__webpack_require__(/*! ./i18n/index.js */ 67));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
 //
 //
 //
